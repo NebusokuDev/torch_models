@@ -5,7 +5,7 @@ from torch.optim import Adam
 from torch.utils.data import DataLoader
 from torchvision import transforms
 from torchvision.datasets import ImageFolder
-from models.nanonet import Nanonet
+from models.nanonet.nanonet import Nanonet
 from trainer import Trainer
 
 # コマンドライン引数の定義
